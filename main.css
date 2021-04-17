@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background-color:#D1C4E9;
+}
+
+main {
+  color:#512DA8;
+  padding:16px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 22px;
+}
+
+/*
+** Dots
+*/
+
+
+/* body {
+  background-image: radial-gradient(#673AB7 1px,transparent 0);
+  background-size: 42px 42px;
+  background-position: 0 0;
+} */
+
+/*
+** Animated Dots
+*/
+
+/* body {
+  background-image: 
+  radial-gradient(#673AB7 1px,transparent 0),
+  radial-gradient(#999 1px,transparent 0);
+  background-size: 42px 42px;
+  background-position: 0 0, 21px 21px;
+  animation: infinite dots 1s alternate;
+}
+
+@keyframes dots {
+  to {
+    background-position: 21px 21px, 0 0;  
+  }
+} */
+
+/*
+** Animated Dots Waltz
+*/
+
+/* body {
+  background-image: 
+  radial-gradient(#673AB7 1px,transparent 0),
+  radial-gradient(#999 1px,transparent 0),
+  radial-gradient(#512DA8 1px,transparent 0);
+  background-size: 100px 100px;
+  background-position: 0 0, 50px 50px, 0 50px;
+  animation: infinite dotsWaltz 1s;
+}
+
+@keyframes dotsWaltz {
+  50% {
+    background-position: 50px 50px, 0 50px, 0 0;
+  }
+
+  100% {
+    background-position: 0 50px, 0 0, 50px 50px;
+  }
+} */
+
+/*
+** Animated Dots Square
+*/
+
+/* body {
+  background-color:black;
+  background-image: 
+  radial-gradient(#fff 2px,transparent 0),
+  radial-gradient(#fff 1px,transparent 0),
+  radial-gradient(#fff 2px,transparent 0),
+  radial-gradient(#fff 1px,transparent 0);
+  background-size: 100px 100px;
+  background-position: 0 0, 0 50px, 50px 50px, 50px 0;
+  animation: infinite dotsSquare 2s;
+}
+
+main {
+  color:yellow;
+}
+
+@keyframes dotsSquare {
+  25% {
+    background-position: 0 50px, 50px 50px, 50px 0, 0 0;
+  }
+
+  50% {
+    background-position: 50px 50px, 50px 0, 0 0, 0 50px;
+  }
+
+  75% {
+    background-position: 50px 0, 0 0, 0 50px, 50px 50px;
+  }
+
+  100% {
+    background-position: 0 0, 0 50px, 50px 50px, 50px 0;
+  }
+} */
+
+/*
+** Animated Dots Square Epilepsie
+*/
+
+body {
+  background-color:black;
+  background-image: 
+  radial-gradient(#fff 2px,transparent 0),
+  radial-gradient(#fff 1px,transparent 0),
+  radial-gradient(#fff 2px,transparent 0),
+  radial-gradient(#fff 1px,transparent 0);
+  background-size: 100px 100px;
+  background-position: 0 0, 0 50px, 50px 50px, 50px 0;
+  animation: infinite dotsSquare 1.5s;
+}
+
+main {
+  color:yellow;
+}
+
+@keyframes dotsSquare {
+  25% {
+    background-position: 0 50px, 50px 50px, 50px 0, 0 0;
+  }
+
+  50% {
+    background-color: white;
+    background-position: 50px 50px, 50px 0, 0 0, 0 50px;
+  }
+
+  75% {
+    background-color: red;
+    background-position: 50px 0, 0 0, 0 50px, 50px 50px;
+  }
+
+
+  90% {
+    background-color:blue;
+  }
+
+  92% {
+    background-color:pink;
+  }
+  
+  94% {
+    background-color:cyan;
+  }
+  
+  96% {
+    background-color:yellow;
+  }
+
+  98% {
+    background-color:purple;
+  }
+
+  100% {
+    background-position: 0 0, 0 50px, 50px 50px, 50px 0;
+  }
+}
+
+/*
+** Stripes
+*/
+
+/* body {
+  background-image: linear-gradient(#fff 5px,transparent 0);
+  background-size: 100% 42px;
+  background-position: 0 0;
+} */
+
+/*
+** Animated Stripes
+*/
+
+/* body {
+  background-image: linear-gradient(#fff 5px,transparent 0);
+  background-size: 100% 42px;
+  background-position: 0 0;
+  animation: infinite stripes 1s ease;
+}
+
+@keyframes stripes {
+  to {
+    background-position: 100% 42px;
+  }
+} */
+
+/*
+** Triangles
+*/
+
+/* body {
+  background-image: linear-gradient(-42deg, #fff 8px,transparent 0);
+  background-size: 42px 42px;
+  background-position: 0 0;
+} */
+
+/*
+** Triangles Animated
+*/
+
+/* body {
+  background-image: linear-gradient(42deg, #fff 8px,transparent 0),
+  linear-gradient(-42deg, #999 8px,transparent 0);
+  background-size: 84px 84px;
+  background-position: 0 21px, 21px 0;
+  animation: infinite cut 1s alternate;
+}
+
+@keyframes cut {
+  to {
+    background-position: 21px 21px, 0 21px;
+  }
+} */
+
+
+
+
+
+/*
+** Diagonals
+*/
+/* 
+body {
+  background:pink;
+  background-image: linear-gradient(20deg, #fff 20%, transparent 0),
+  linear-gradient(200deg, #fff 20%, transparent 0);
+  background-size:100%;
+  background-position: 0 0;
+  background-color:#D1C4E9;
+} */
+
